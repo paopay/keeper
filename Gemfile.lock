@@ -50,6 +50,8 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
+    doorkeeper (4.2.0)
+      railties (>= 4.2)
     erubis (2.7.0)
     execjs (2.7.0)
     globalid (0.3.7)
@@ -150,6 +152,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   devise (~> 4.2.0)
+  doorkeeper (~> 4.2.0)
   jbuilder (~> 2.0)
   jquery-rails
   mysql2 (>= 0.3.13, < 0.5)
